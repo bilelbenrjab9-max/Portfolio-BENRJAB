@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Portfolio | Mechanical & Mechatronics Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Replaced grid/dots with fullscreen video background -->
+  <div class="video-background">
+    <video autoplay muted loop playsinline id="bgVideo">
+      <!-- Replace with your own video URL -->
+      <source src="video1.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>ENG<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+       <!-- <li><a href="#media" class="nav-link">Media</a></li>-->
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-subtitle animate-fade-in">Welcome to my portfolio</p>
+        <h1 class="hero-title animate-slide-up">
+          <span class="title-line">Bilel</span>
+          <span class="title-line accent">Ben Rjab</span>
+        </h1>
+        <p class="hero-role animate-fade-in-delay">Mechatronics, Mechanical Design Automation Engineering </p>
+        <p class="hero-description animate-fade-in-delay-2">
+Versatile and motivated engineer with experience in mechanical design, industrial automation, piping, process improvement and analysis, special-purpose machines, and industrial testing tooling. Currently working in the railway industry.        </p>
+        <div class="hero-buttons animate-fade-in-delay-3">
+          <a href="#" class="btn btn-primary">
+            <span class="btn-icon">↓</span>
+            Download CV
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            Contact Me
+          </a>
+        </div>
+      </div>
+      <div class="hero-image animate-zoom-in">
+        <div class="image-frame">
+          <div class="frame-corner top-left"></div>
+          <div class="frame-corner top-right"></div>
+          <div class="frame-corner bottom-left"></div>
+          <div class="frame-corner bottom-right"></div>
+          <!-- Replace with your profile image -->
+          <img src="pdp.png" alt="Engineer Profile Photo">
+        </div>
+        
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image reveal-left">
+          <img src="/placeholder.svg?height=500&width=600" alt="Engineer at work">
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="3">0</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="37">0</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <h3>Engineering Excellence Through Innovation</h3>
+          <p>
+            With over 3 years of experience in mechanical and mechatronics design, I specialize in creating innovative solutions that bridge the gap between concept and reality. My expertise spans from precision mechanical components to fully integrated automated systems.
+          </p>
+          <p>
+            I am passionate about leveraging cutting-edge CAD technologies, simulation tools, and manufacturing processes to deliver designs that exceed expectations. My approach combines analytical rigor with creative problem-solving to tackle the most challenging engineering projects.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">◆</span>
+              <span>ALL CAD Expertise</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">◆</span>
+              <span>Automation Systems</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">◆</span>
+              <span>Prototyping</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">◆</span>
+              <span>Industrialization</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02</span>
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <!-- Engineering Skills -->
+        <div class="skill-category reveal-up">
+          <h3 class="category-title">
+            <span class="category-icon">⚙</span>
+            Engineering Skills
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Mechanical Design</span>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Special Machine</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Piping</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Automation & Control</span>
+                <span class="skill-percent">82%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="82"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Process Engineering</span>
+                <span class="skill-percent">79%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="79"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Vision</span>
+                <span class="skill-percent">73%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="73"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Software Skills -->
+        <div class="skill-category reveal-up delay-1">
+          <h3 class="category-title">
+            <span class="category-icon">◈</span>
+            Software Proficiency
+          </h3>
+          <div class="software-grid">
+            <div class="software-card">
+              <div class="software-icon">S</div>
+              <span class="software-name">SolidWorks</span>
+              <div class="software-level">Expert</div>
+            </div>
+            <div class="software-card">
+              <div class="software-icon">A</div>
+              <span class="software-name">AutoCAD plant 3D</span>
+              <div class="software-level">Expert</div>
+            </div>
+            <div class="software-card">
+              <div class="software-icon">T</div>
+              <span class="software-name">TIAPORTAL</span>
+              <div class="software-level">Advanced</div>
+            </div>
+            <div class="software-card">
+              <div class="software-icon">E</div>
+              <span class="software-name">EPLAN</span>
+              <div class="software-level">Advanced</div>
+            </div>
+            <div class="software-card">
+              <div class="software-icon">AD</div>
+              <span class="software-name">Altium Designer  </span>
+              <div class="software-level">Advanced</div>
+            </div>
+            <div class="software-card">
+              <div class="software-icon">L</div>
+              <span class="software-name">LABVIEW</span>
+              <div class="software-level">Advanced</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal-up">
+          <div class="project-image">
+            <img src="pj1.jpg" alt="Robotic Arm Project">
+    
+          </div>
+          <div class="project-content">
+            <span class="project-category">Automation</span>
+            <h3 class="project-title">Product Quality Control Machine</h3>
+            <p class="project-description">
+                 Automated machine dedicated to product inspection and quality validation on the production line. It enables measurement, verification, and defect detection (dimensions, tolerances, surface defects, assembly conformity) using integrated sensors, cameras, and measurement systems.  
+            <div class="project-tags">
+              <span class="tag">SolidWorks</span>
+              <span class="tag">TIAPORTAL</span>
+              <span class="tag">EPLAN</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-up delay-1">
+          <div class="project-image">
+            <img src="pj2.jpg" alt="Conveyor System">
+            
+          </div>
+          <div class="project-content">
+            <span class="project-category">Robotic</span>
+            <h3 class="project-title">Robot Delta</h3>
+            <p class="project-description">
+              A high-speed Delta robot designed for precise pick-and-place operations in industrial automation. The system features a lightweight parallel-arm structure for fast movement and excellent repeatability. It is optimized for handling small to medium-sized parts with high cycle rates, making it ideal for packaging, assembly, and sorting applications. The design includes kinematic analysis, 3D modeling, and integration of control components to ensure reliable performance and accurate positioning.
+            </p>
+            <div class="project-tags">
+              <span class="tag">STM32</span>
+              <span class="tag">Python</span>
+              <span class="tag">CAD</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-up delay-2">
+          <div class="project-image">
+            <img src="pj3.jpg" alt="Drone Project">
+            
+          </div>
+          <div class="project-content">
+            <span class="project-category">Station Industry</span>
+            <h3 class="project-title">Reversible Electrodialysis</h3>
+            <p class="project-description">
+                Automated system for ion separation and energy recovery using reversible electrodialysis. The project focuses on process control, real-time monitoring, and optimization of voltage, flow rates, and membrane performance. Fully integrated with sensors and PLC/SCADA systems to ensure efficient operation, precise regulation, and fault detection. Designed to demonstrate automation strategies for renewable energy conversion and water desalination processes.
+            <div class="project-tags">
+              <span class="tag">TIAPORTAL</span>
+              <span class="tag">SCADA</span>
+              <span class="tag">SEIMENS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-up delay-3">
+          <div class="project-image">
+            <img src="pj4.png" alt="CNC Machine">
+            
+          </div>
+          <div class="project-content">
+            <span class="project-category">Automation / Mechatronics</span>
+            <h3 class="project-title">Syringe Pump</h3>
+            <p class="project-description">
+              Automated syringe pump system for precise fluid dosing and flow control. Designed with stepper motor motion control, feedback monitoring, and programmable speed/volume settings for accurate medical or laboratory applications.
+            </p>
+            <div class="project-tags">
+              <span class="tag">CATIA</span>
+              <span class="tag">ARDUINO</span>
+              <span class="tag">ESB32</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Section -->
+  <!--<section id="media" class="media section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04</span>
+        <h2 class="section-title">Engineering Gallery</h2>
+        <div class="section-line"></div>
+      </div>-->
+      
+      <!-- Video Section -->
+     <!-- <div class="video-container reveal-up">
+        <h3 class="media-subtitle">Project Showcase Video</h3>
+        <div class="video-wrapper">
+          
+          <iframe 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="Engineering Project Showcase"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>-->
+
+      <!-- Image Gallery -->
+    <!--  <div class="gallery-container">
+        
+        <div class="gallery-grid">
+          <div class="gallery-item reveal-up" data-index="0">
+            <img src="/placeholder.svg?height=300&width=400" alt="CAD Design">
+            <div class="gallery-overlay">
+              <span class="gallery-title">CAD Assembly</span>
+            </div>
+          </div>
+          <div class="gallery-item reveal-up delay-1" data-index="1">
+            <img src="/placeholder.svg?height=300&width=400" alt="3D Printed Parts">
+            <div class="gallery-overlay">
+              <span class="gallery-title">Prototype Parts</span>
+            </div>
+          </div>
+          <div class="gallery-item reveal-up delay-2" data-index="2">
+            <img src="/placeholder.svg?height=300&width=400" alt="FEA Analysis">
+            <div class="gallery-overlay">
+              <span class="gallery-title">FEA Analysis</span>
+            </div>
+          </div>
+          <div class="gallery-item reveal-up delay-3" data-index="3">
+            <img src="/placeholder.svg?height=300&width=400" alt="Workshop">
+            <div class="gallery-overlay">
+              <span class="gallery-title">Workshop</span>
+            </div>
+          </div>
+          <div class="gallery-item large reveal-up delay-1" data-index="4">
+            <img src="/placeholder.svg?height=400&width=600" alt="Assembly Line">
+            <div class="gallery-overlay">
+              <span class="gallery-title">Robotic Assembly</span>
+            </div>
+          </div>
+          <div class="gallery-item reveal-up delay-2" data-index="5">
+            <img src="/placeholder.svg?height=300&width=400" alt="Electronics">
+            <div class="gallery-overlay">
+              <span class="gallery-title">Electronics Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close">&times;</button>
+      <button class="lightbox-prev">&#10094;</button>
+      <button class="lightbox-next">&#10095;</button>
+      <img class="lightbox-image" src="/placeholder.svg" alt="Gallery Image">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info reveal-left">
+          <h3>Let's Work Together</h3>
+          <p>
+            I'm always interested in hearing about new projects and opportunities. Whether you need a mechanical design expert or want to discuss a potential collaboration, feel free to reach out.
+          </p>
+          <div class="contact-methods">
+            <a href="mailto:john.anderson@email.com" class="contact-method">
+              <span class="method-icon">✉</span>
+              <div class="method-details">
+                <span class="method-label">Email</span>
+                <span class="method-value">bilelbenrjab9@gmail.com</span>
+              </div>
+            </a>
+            
+            <div class="contact-method">
+              <span class="method-icon">◎</span>
+              <div class="method-details">
+                <span class="method-label">Location</span>
+                <span class="method-value">Ariana,Borj louzir</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal-right" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" required placeholder=" ">
+            <label for="name">Your Name</label>
+            <span class="form-line"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" required placeholder=" ">
+            <label for="email">Your Email</label>
+            <span class="form-line"></span>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" required placeholder=" ">
+            <label for="subject">Subject</label>
+            <span class="form-line"></span>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
+            <label for="message">Your Message</label>
+            <span class="form-line"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">
+            <span>Send Message</span>
+            <span class="btn-arrow">→</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="logo-bracket">&lt;</span>ENG<span class="logo-bracket">/&gt;</span>
+        </div>
+        <p class="footer-text">
+          © 2025 Bilel Ben Rjab. Engineered with precision.
+        </p>
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
